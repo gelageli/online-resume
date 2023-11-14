@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <title>My Resume</title>
+    <style>
+      body {
+        padding: 20px;
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+      .profile {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+      }
+      .text {
+        flex: 1;
+      }
+      .text h1 {
+        margin-bottom: 0;
+      }
+      .text h2 {
+        margin: 0;
+      }
+      h3 {
+        margin-bottom: 0;
+      }
+      .info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .info__item p {
+        margin: 5px 0;
+      }
+      h4 {
+        font-weight: normal;
+        font-size: 18px;
+        margin: 5px 0;
+      }
+      .work-exp-info {
+        display: flex;
+        justify-content: space-between;
+      }
+      .work-exp-info p {
+        font-size: 14px;
+        margin: 0;
+      }
+      .educ-info {
+        display: flex;
+        justify-content: space-between;
+      }
+      .educ-info p {
+        font-size: 14px;
+        margin: 0;
+      }
+      footer {
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+        background-color: #dbdbdb;
+        color: #000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <img class="profile" src="./assets/images/profile.jpg" />
+      <div class="text">
+        <h1>ANGELICA A. ROQUE</h1>
+        <h2>Entry-level Web Developer</h2>
+        <div class="info">
+          <div class="info__item">
+            <p>Manila, PH</p>
+            <a href="https://gelageli.github.io/html-porfolio/">
+              <p>Portfolio</p>
+            </a>
+          </div>
+          <div class="info__item">
+            <p>angelicaroque012@gmail.com</p>
+            <a href="www.linkedin.com/in/angelica-aquino-roque-44ba7426a">
+              <p>LinkedIn</p>
+            </a>
+          </div>
+          <div class="info__item">
+            <p>09694390410</p>
+            <a href="https://github.com/gelageli">
+              <p>Github</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>OBJECTIVE</h3>
+    <hr />
+    <p>
+      Software engineer with ability to learn and collaborate in rapidly
+      changing environments and compositions. Worked through 1000+ hours of
+      bootcamp structure, learning JavaScript, Node.Js, React.Js, and Python.
+      Eager to tackle web development/design challenges to achieve lasting
+      impacts on user experience.
+    </p>
+
+    <h3>WORK EXPERIENCE</h3>
+    <hr />
+    <div class="work-exp">
+      <h4><b>ABC Tech</b> - Web Developer Intern</h4>
+      <div class="work-exp-info">
+        <p>May 2024 - October 2024</p>
+        <p>Anytown, USA</p>
+      </div>
+    </div>
+    <ul>
+      <li>Actively engaged in web creative design and development.</li>
+      <li>
+        Assisted in product development and enhancements of current suite to
+        boost engagement by 15%.
+      </li>
+      <li>Provided technical support for 10+ existing online products.</li>
+      <li>
+        Provided professional customer service, managing 20+ phone and email
+        requests a day.
+      </li>
+      <li>
+        Created and deployed mobile-first applications while learning new
+        languages and frameworks.
+      </li>
+    </ul>
+
+    <h3>PROJECTS</h3>
+    <hr />
+    <h4><b>Task Management Dashboard</b> - Creator</h4>
+    <ul>
+      <li>
+        Created a task management dashboard using React.js, allowing users to
+        add, edit, and delete tasks.
+      </li>
+      <li>
+        Integrated state management to efficiently handle task updates and
+        changes in real-time.
+      </li>
+      <li>
+        Implemented drag-and-drop functionality for intuitive task organization.
+      </li>
+      <li>
+        Utilized local storage to persist user data, ensuring a seamless
+        experience across sessions.
+      </li>
+      <li>
+        Incorporated responsive design principles for optimal usability on
+        various devices.
+      </li>
+    </ul>
+    <h4><b>Personal Portfolio Website</b> - Creator</h4>
+    <ul>
+      <li>
+        Designed and developed a personal portfolio website to showcase a
+        collection of projects, skills, and achievements.
+      </li>
+      <li>
+        Implemented a clean and modern UI using HTML, CSS, and JavaScript to
+        create an engaging user experience.
+      </li>
+      <li>
+        Integrated a responsive design approach, ensuring optimal viewing on
+        various devices and screen sizes.
+      </li>
+      <li>
+        Incorporated a project gallery with detailed descriptions and links to
+        GitHub repositories.
+      </li>
+    </ul>
+
+    <h3>EDUCATION</h3>
+    <hr />
+    <div class="educ">
+      <h4><b>Online Courses and Bootcamps</b> - Self-Taught Web Developer</h4>
+      <div class="educ-info">
+        <p>Ongoing</p>
+        <p>Remote</p>
+      </div>
+    </div>
+
+    <h3>CERTIFICATION</h3>
+    <hr />
+    <div class="educ">
+      <h4><b>Web Development Bootcamp Certification</b></h4>
+      <div class="educ-info">
+        <p>2024</p>
+        <p>Udemy</p>
+      </div>
+    </div>
+
+    <h3>SKILLS</h3>
+    <hr />
+    <p>
+      HTML, CSS, Javascript, Python, Node, React, PostgreSQL, Web3 and DApps
+    </p>
+
+    <h3>EXTRA INFO</h3>
+    <hr />
+    <a href="./public/hobbies.html">Hobbies</a>
+
+    <footer>
+      <small>© 2024 Angelica Roque</small>
+    </footer>
+  </body>
+</html>
